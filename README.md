@@ -49,12 +49,17 @@ Header file that contains all the prototypes of the proposed sorting algorithms,
 
 <details>
 <summary>print_array.c</summary>
-Auxiliary function that prints an array of integers taking as parameters the array to be printed and its size.
+Contains the auxiliary function that prints an array of integers taking as parameters the array to be printed and its size.
 </details>
 
 <details>
 <summary>print_list.c</summary>
-Auxiliary function that prints a list of integers, taking a list as a parameter.
+Contains the auxiliary function that prints a list of integers, taking a list as a parameter.
+</details>
+
+<details>
+<summary>swap.c</summary>
+Contains the auxiliary function for swap values in a given array.
 </details>
 
 <div align="center">

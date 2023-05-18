@@ -62,6 +62,11 @@ Contains the auxiliary function that prints a list of integers, taking a list as
 Contains the auxiliary function for swap values in a given array.
 </details>
 
+<details>
+<summary>0-bubble_sort.c</summary>
+Contains a function that sorts an array of integers in ascending order using the bubble sort algorithm. Pairs of adjacent elements are compared and swapped if they are out of order. If no swapping occurs in one iteration, indicates that the array is ordered.
+</details>
+
 <div align="center">
 
 ## Authors
@@ -75,6 +80,6 @@ Contains the auxiliary function for swap values in a given array.
 
 <br>
 
-_Last updated: May 17, 2023_
+_Last updated: May 18, 2023_
 
 </div>

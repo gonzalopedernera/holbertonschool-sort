@@ -10,6 +10,9 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t i = 0, change = 1;
 
+	if (!array || size < 2)
+		return;
+
 	while (change == 1) /* if there are any changes */
 	{
 		change = 0;

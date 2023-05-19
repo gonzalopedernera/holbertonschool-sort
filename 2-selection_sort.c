@@ -8,25 +8,23 @@
 */
 void selection_sort(int *array, size_t size)
 {
-	size_t index = 0, j = 0, min = 0;
-	int aux = 0;
+	size_t i = 0, j = 0, min = 0;
 
-	for (index = 0; index < size - 1; index++)
+	if (!array || size < 2)
+		return;
+
+	for (i = 0; i < size - 1; i++)
 	{
-		min = array[index];
-		for (j = index + 1; j < size; j++) /* find the minimal integer */
+		min = i;
+		for (j = i + 1; j < size; j++) /* find minimal integer */
 		{
 			if (array[j] < array[min])
-			{
-				aux = j; /* store new minimal integer position */
-				min = array[j];
-			}
+				min = j; /* store new minimal integer position */
 		}
 
-		if (min != index) /* case: integer less than current is found */
+		if (min != i) /* case: integer less than current is found */
 		{
-			array[aux] = array[index];
-			array[index] = min;
+			swap(array, min, i);
 			print_array(array, size);
 		}
 	}

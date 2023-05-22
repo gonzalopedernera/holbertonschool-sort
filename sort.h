@@ -26,5 +26,6 @@ void print_list(const listint_t *list);
 void swap(int *array, int a, int b);
 void bubble_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
 
 #endif
